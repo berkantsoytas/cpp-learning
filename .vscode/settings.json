@@ -1,0 +1,6 @@
+{
+  "thunder-client.indentSize": 2,
+  "files.associations": {
+    "ostream": "cpp"
+  }
+}

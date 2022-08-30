@@ -1,0 +1,367 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Aug 26 14:58:49 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+VCIDEINSTALLDIR = C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\pc
+# environment
+VCTOOLSREDISTDIR = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.32.31326\
+# environment
+LOCALAPPDATA = C:\Users\pc\AppData\Local
+# environment
+WINDOWSSDKVERBINPATH = C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\
+# environment
+VCINSTALLDIR = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\
+# environment
+VSCODE_CWD = C:\Users\pc\source\repos
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Users\pc\Documents\WindowsPowerShell\Modules;C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# environment
+FRAMEWORKDIR32 = C:\Windows\Microsoft.NET\Framework\
+# environment
+WINDOWSSDKBINPATH = C:\Program Files (x86)\Windows Kits\10\bin\
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+GOPATH = C:\Users\pc\go
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_129088_DMRVKJFCHMUGECPO
+# environment
+FRAMEWORKVERSION32 = v4.0.30319
+# environment
+EXTENSIONSDKDIR = C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# default
+.VARIABLES := 
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\pc\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\pc\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\pc\OneDrive
+# makefile
+CURDIR := c:/Users/pc/source/repos
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+GOLAND = C:\Program Files\JetBrains\GoLand 2021.3.1\bin;
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile
+MAKEFILE_LIST := 
+# environment
+UNIVERSALCRTSDKDIR = C:\Program Files (x86)\Windows Kits\10\
+# environment
+VSCMD_ARG_TGT_ARCH = x86
+# automatic
+@F = $(notdir $@)
+# environment
+COMMANDPROMPTTYPE = Native
+# environment
+VSCODE_PID = 129088
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# environment
+VSCMD_ARG_HOST_ARCH = x86
+# environment
+VCTOOLSVERSION = 14.33.31629
+# environment
+LIBPATH = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\ATLMFC\lib\x86;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x86;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x86\store\references;C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.19041.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0;C:\Windows\Microsoft.NET\Framework\v4.0.30319
+# environment
+VSCMD_ARG_APP_PLAT = Desktop
+# environment
+LIB = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\ATLMFC\lib\x86;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\lib\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.19041.0\ucrt\x86;C:\Program Files (x86)\Windows Kits\10\\lib\10.0.19041.0\\um\x86
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+PHPSTORM = C:\Program Files\JetBrains\PhpStorm 2021.3\bin;
+# environment
+VS170COMNTOOLS = C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\
+# environment
+DEVENVDIR = C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\
+# environment
+VSCODE_NLS_CONFIG = {"locale":"tr","availableLanguages":{},"_languagePackSupport":true}
+# environment
+__DOTNET_PREFERRED_BITNESS = 32
+# environment
+INCLUDE = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+UCRTVERSION = 10.0.19041.0
+# environment
+HOMEPATH = \Users\pc
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WEBSTORM = C:\Program Files\JetBrains\WebStorm 2021.2.3\bin;
+# environment
+WINDIR = C:\WINDOWS
+# environment
+FRAMEWORK40VERSION = v4.0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\\x86;C:\Program Files (x86)\Windows Kits\10\bin\\x86;C:\Program Files\Microsoft Visual Studio\2022\Community\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\protoc-3.20.1-win64\bin;C:\mingw64\bin;C:\Program Files\CMake\bin;C:\Program Files\Go\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\pc\.local\share\solana\install\active_release\bin;C:\Users\pc\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\pc\AppData\Local\Programs\Python\Python310\;C:\Users\pc\.cargo\bin;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\GoLand 2021.3.1\bin;C:\Program Files\JetBrains\WebStorm 2021.2.3\bin;C:\Program Files\JetBrains\PhpStorm 2021.3\bin;C:\Users\pc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pc\AppData\Roaming\npm;C:\Users\pc\go\bin;C:\Users\pc\.deno\bin;C:\tools\neovim\nvim-win64\bin;C:\Users\pc\boost-build\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CM 
+ake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = LAPTOP-HSVNHJNC
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+VCTOOLSINSTALLDIR = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\
+# environment
+NETFXSDKDIR = C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132998859889229623
+# environment
+LOGONSERVER = \\LAPTOP-HSVNHJNC
+# environment
+USERNAME = pc
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+WINDOWSSDKVERSION = 10.0.19041.0\
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+WINDOWSSDKDIR = C:\Program Files (x86)\Windows Kits\10\
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = LAPTOP-HSVNHJNC
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := 
+# environment
+VISUALSTUDIOVERSION = 17.0
+# environment
+EXTERNAL_INCLUDE = C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um
+# default
+MAKE_VERSION := 4.3
+# environment
+WINDOWSSDK_EXECUTABLEPATH_X64 = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64\
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-HSVNHJNC
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSINSTALLDIR = C:\Program Files\Microsoft Visual Studio\2022\Community\
+# environment
+WINDOWSLIBPATH = C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.19041.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0
+# environment
+APPDATA = C:\Users\pc\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+VSCMD_VER = 17.3.2
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+WINDOWSSDK_EXECUTABLEPATH_X86 = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\pc\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\3058e90def63a712a14000231c360f65-1.70.2-main-sock
+# environment
+WINDOWSSDKLIBVERSION = 10.0.19041.0\
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+__DOTNET_ADD_32BIT = 1
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+__VSCMD_PREINIT_PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\protoc-3.20.1-win64\bin;C:\mingw64\bin;C:\Program Files\CMake\bin;C:\Program Files\Go\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\pc\.local\share\solana\install\active_release\bin;C:\Users\pc\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\pc\AppData\Local\Programs\Python\Python310\;C:\Users\pc\.cargo\bin;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\GoLand 2021.3.1\bin;C:\Program Files\JetBrains\WebStorm 2021.2.3\bin;C:\Program Files\JetBrains\PhpStorm 2021.3\bin;C:\Users\pc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pc\AppData\Roaming\npm;C:\Users\pc\go\bin;C:\Users\pc\.deno\bin;C:\tools\neovim\nvim-win64\bin;C:\Users\pc\boost-build\bin
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = a502
+# environment
+FRAMEWORKDIR = C:\Windows\Microsoft.NET\Framework\
+# environment
+FRAMEWORKVERSION  
+= v4.0.30319
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# variable set hash-table stats:
+# Load=137/1024=13%, Rehash=0, Collisions=16/161=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/pc/source/repos, mtime 1661514929): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile.mak:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 16 / storage = 164 B / avg = 10 B
+# current buf: size = 8174 B / used = 164 B / count = 16 / avg = 10 B
+
+# strcache performance: lookups = 19 / hit rate = 15%
+# hash-table stats:
+# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
+# Finished Make data base on Fri Aug 26 14:58:49 2022
+
+ 
