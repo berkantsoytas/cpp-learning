@@ -48,23 +48,23 @@ int main()
   // With number systems - Hex : prefix with 0x
   unsigned int hex_number{0x22BU}; // Dec 555
   int hex_number2{0x400};          // Dec 1024
-  std::cout << std::hex << "The hex number is : " << hex_number << std::endl;
-  std::cout << std::dec << "The hex number2 is : " << hex_number2 << std::endl;
+  std::cout << std::hex << "The hex number is: " << hex_number << std::endl;
+  std::cout << std::dec << "The hex number2 is: " << hex_number2 << std::endl;
 
   // Representing colors with hex
   int black_color{0xffffff};
-  std::cout << "Black color is : " << std::dec << black_color << std::endl;
+  std::cout << "Black color is: " << std::dec << black_color << std::endl;
 
   // Octal literals : prefix with 0
   int octal_number{0777u}; // 511 Dec
-  std::cout << "The octal number is : " << octal_number << std::endl;
+  std::cout << "The octal number is: " << octal_number << std::endl;
   //!!BE CAREFUL NOT TO PREFIX YOUR INTEGERS WITH 0 IF YOU MEAN DEC
   int error_octal{055}; // This is not 55 in memory , it is 45 dec
-  std::cout << "The erronous octal number is : " << error_octal << std::endl;
+  std::cout << "The erronous octal number is: " << error_octal << std::endl;
 
   // Binary literals
   unsigned int binary_literal{0b11111111u}; // 255 dec
-  std::cout << "The binary literal is : " << binary_literal << std::endl;
+  std::cout << "The binary literal is: " << binary_literal << std::endl;
 
   // Other literals. This is just an example and we will learn
   // more about  strings as we progress in the course.
@@ -73,10 +73,10 @@ int main()
   float fractional_literal{1.5f};
   std::string string_literal{"Hit the road"};
 
-  std::cout << "The char literal is : " << char_literal << std::endl;
-  std::cout << "The number literal is : " << number_literal << std::endl;
-  std::cout << "The fractional literal is : " << fractional_literal << std::endl;
-  std::cout << "The string literal is : " << string_literal << std::endl;
+  std::cout << "The char literal is: " << char_literal << std::endl;
+  std::cout << "The number literal is: " << number_literal << std::endl;
+  std::cout << "The fractional literal is: " << fractional_literal << std::endl;
+  std::cout << "The string literal is: " << string_literal << std::endl;
 
   return 0;
 }
